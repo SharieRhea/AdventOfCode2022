@@ -30,21 +30,4 @@ public:
     }
 };
 
-class CycleValue {
-public:
-	int blockType;
-	int windIndex;
-	int block;
-	int height;
-	int heightChange;
-
-	CycleValue(int blockType, int windIndex, int block, int height, int heightChange) {
-		this->blockType = blockType;
-		this->windIndex = windIndex;
-		this->block = block;
-		this->height = height;
-		this->heightChange = heightChange;
-	}
-};
-
 #endif
